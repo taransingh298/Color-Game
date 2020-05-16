@@ -1,0 +1,65 @@
+body{
+	background: #232323;
+}
+
+.square{
+	height : 170px;
+	background-color: pink;
+	border-radius: 15%;
+	transition: background 0.6s; /* remember this is animation -> slow motion transition */
+}
+.row{
+	margin: 0 auto;
+}
+
+.jumbotron{
+	height : 180px;
+	background: #4682B4;
+	transition: background 0.6s;
+}
+#jumbo{
+	background: red;
+}
+
+.cap{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+	margin-bottom: 0px;
+}
+.t1{
+	font-weight: normal;
+}
+#nav{
+	height : 30px;
+	border: none;
+	background: white;
+	color:  #4682B4;
+	text-align: center;
+}
+button{
+	border: none;
+	background: none;
+	color:  #4682B4;
+	height: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s;     /* remember this is animation -> slow motion transition */
+	font-size: inherit;
+	font-weight: 700;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	background: #4682B4;
+	color: white;
+}
+
+.selected{
+	color: white;
+	background: #4682B4;
+}
